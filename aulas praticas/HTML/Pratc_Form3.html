@@ -1,0 +1,65 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Data e Hora</title>
+        <style>
+            .quebra{display: block;}
+            .espacoTop{margin-top: 15px;}
+            .espacoButton{margin-bottom: 15px;}
+            form{
+                border: 1px solid #000;
+                border-radius: 15px;
+                padding: 10px;
+                background-color: rgb(176, 199, 140);
+                margin-left: 200px;
+                margin-right: 200px;
+            }
+
+            body{
+                background: linear-gradient(100deg,rgb(241, 117, 117),rgb(62, 148, 228));
+            }
+
+            h1{
+                text-align: center;
+                color:crimson;
+                font-size: 60px;
+                font-family: 'Times New Roman';
+            
+            }
+
+            #inputImage{
+                display: block;
+                margin-top: 15px;
+                width: 5%;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>A Data e a Hora</h1>
+        <!--
+            Os atributos max e min visam definir o minimo e o maximo de date,time datetime...
+            o input type=hidden permite a passagem de valores de forma invisivel 
+        -->
+        <form name="Formulario_data" action="#" method="get">
+            <label class="quebra espacoTop"><strong>Hora</strong></label>
+                <input type="time" name="F_H" min="09:30" max="12:30">
+            <label class="quebra espacoTop"><strong>Data</strong></label>
+                <input type="date" name="F_Data" required>
+            <label class="quebra espacoTop"><strong>DataHora</strong></label>
+                <input type="datetime-local" name="F_Datetime">
+            <label class="quebra espacoTop"><b>Semana</b></label>
+                <input type="week" name="F_Semana">
+            <label class="quebra espacoTop"><b>MÊS</b></label>
+                <input type="month" name="F_Mes">
+            <label class="">Cor</label>
+                <input type="color" name="F_Cor">
+            <label class="quebra espacoTop">Digite seu E-mail</label>
+                <input type="email" name="F_mail">
+            <input type="hidden" name="Password">
+            <input type="hidden" name="Eu te Amo">
+            <input id="inputImage" type="image" src="../Multimedia/DT02.jpg" name="F_Submit">
+            <input class="quebra espacoButton espacoTop" type="submit" name="F_Submit" value="Submeter">
+        </form>
+
+    </body>
+</html>

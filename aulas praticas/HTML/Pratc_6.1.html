@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Segunda Parte </title>
+        <link rel="stylesheet" href="../CSS/dialog.css">
+        <script>
+            function Abrir_Dialog() {
+                document.getElementById("Bot_dialog").innerHTML="Fechar";
+                document.getElementById("Caixa_Dialogo").setAttribute("Open","");
+            }
+            function Fechar_Dialog() {
+                document.getElementById("Bot_dialog").innerHTML="Abrir";
+                document.getElementById("Caixa_Dialogo").removeAttribute("Open");
+            }
+            function Control_Dialog(Mensagem_Superior,Mensagem_Corpo) {
+                if(document.getElementById("Caixa_Dialogo").open)
+                    Fechar_Dialog();
+                else{
+                    Abrir_Dialog();
+                    document.getElementById("Mensagem_Superior").innerHTML=Mensagem_Superior;
+                    document.getElementById("Mensagem_Corpo").innerHTML=Mensagem_Corpo;
+                }
+            }
+        </script>
+    </head>
+    <body >
+
+        <button onclick="Control_Dialog('Carta para Herman',' Te amo Bebezinha, deu certo.')" id="Bot_dialog">Abrir</button>
+        <button onclick="Control_Dialog('Carta para Herman',' Kilamba, deu certo.')" id="Bot_dialog">Abrir2</button>
+
+        <dialog id="Caixa_Dialogo">
+            <!--Primeira div representa parte superior-->
+            <div class="dialog_Superior">
+                <h3 id="Mensagem_Superior"></h3>
+            </div>
+            <!--Segunda div representa parte do Corpo-->
+            <div class="dialog_Corpo">
+                <p><strong>Texto:</strong></p>
+                <p id="Mensagem_Corpo"></p>
+            </div>
+            <!--Terceira div representa parte inferior-->
+            <div class="dialog_Rodape">
+                <button onclick="Fechar_Dialog()" id="Close_dialog">Fechar</button>
+            </div>
+        </dialog>
+    </body>
+</html>

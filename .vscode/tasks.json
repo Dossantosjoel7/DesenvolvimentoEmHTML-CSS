@@ -1,0 +1,12 @@
+"configurations": [
+    {
+        // Name of configuration; appears in the launch configuration drop down menu.
+        "name": "Cars.exe",
+        // Type of configuration. Possible values: "node", "mono".
+        "type": "mono",
+        // Workspace relative or absolute path to the program.
+        "program": "cars.exe",
+    }, 
+    {
+        "type": "mono",
+    }

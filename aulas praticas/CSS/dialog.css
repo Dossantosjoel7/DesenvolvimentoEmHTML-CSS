@@ -1,0 +1,63 @@
+/*
+	Name: Joel Santos
+	Copyright: 
+	Author: 
+	Date: 15/03/22
+	Description: *****
+
+*/
+
+   body {background: linear-gradient(50deg, red ,orange );}
+
+   dialog {
+        padding: 0;
+        border: 0;
+        width: 35%;
+        border-radius: 7px;
+        box-shadow: 0 0 10px black;
+        flex-direction: column; /*Transforma um elemento abaixo do outro*/
+    }
+
+    .dialog_Superior{
+        background-color: #eee;
+        border-top-left-radius: inherit; /*Ferramenta Inherit indica que a propriedade vai adquirir a mesma formatação do elemento-pai*/
+        border-top-right-radius: inherit;
+        padding: 7px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #aaa;
+        height: 40px;
+    }
+
+    .dialog_Corpo{
+        background-color: #fff;
+        padding: 7px;
+    }
+
+    .dialog_Rodape{
+        background-color: #fff;
+        border-bottom-left-radius: inherit; 
+        border-bottom-right-radius: inherit;
+        padding: 7px;
+        border-top: 1px solid #aaa;
+        
+    }
+
+    #Close_dialog{
+        border:none;
+        border-radius: 7px;
+        padding: 7px;
+        cursor: pointer;
+        outline: none; 
+    }
+
+    #Close_dialog:hover{
+        background-color: rgb(138, 123, 123);
+    }
+
+    /*dialog::backdrop{
+        background-color: black;   criar uma caixa de fundo 
+    }*/
+
+
+

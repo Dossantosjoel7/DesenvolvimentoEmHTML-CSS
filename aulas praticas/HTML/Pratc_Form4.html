@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+    <head>
+        <title>Pratica de Formulario</title>
+        <style>
+            .quebra{display: block;}
+            .espacoTop{margin-top: 15px;}
+            .espacoButton{margin-bottom: 15px;}
+            form{
+                border: 1px solid #000;
+                border-radius: 15px;
+                padding: 10px;
+                background-color: rgb(176, 199, 140);
+                margin-left: 200px;
+                margin-right: 200px;
+            }
+
+            body{
+                background: linear-gradient(100deg,rgb(241, 117, 117),rgb(62, 148, 228));
+            }
+
+            h1{
+                text-align: center;
+                color:crimson;
+                font-size: 60px;
+                font-family: 'Times New Roman';
+            
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Telemovel,Search, number</h1>
+        <!--
+            step visa incrementar um numero de passos
+            pattern visa definir um padrão de caracteres
+            multiple visa selecionar um dentre muitos arquivos 
+        -->
+        <form name="Form_1" action="#" method="get" enctype="multipart/form-data
+        ">
+            <label class="quebra espacoTop">Telemovel</label>
+                <input type="tel" name="F_Tel" pattern="\([0-9]{3}\)[9]{1}[0-9]{2}-[0-9]{3}-[0-9]{3}" title="Ensira de acordo ao Padrão (2xx)9xx-xxx-xxx" placeholder="Ensira seu Numero de Telemovel">
+            <label class="quebra espacoTop">Numero</label>
+                <input type="number" name="F_number" step="2" min="1" max="15">
+            <label class="quebra espacoTop">Search</label>
+                <input type="search" name="F_Search">
+            <label class="quebra espacoTop">Ficheiro</label>
+                <input type="file" name="F_ficheiro" multiple accept=".jpg,.png">
+            <label class="quebra espacoTop">URL</label>
+                <input type="url" name="F_url" pattern="https://.*">
+
+            <input class="espacoButton quebra espacoTop" type="submit" name="F_Submit" value="Entrar">
+        </form>
+    </body>
+</html>

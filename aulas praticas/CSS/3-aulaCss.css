@@ -1,0 +1,55 @@
+
+   body{
+        display: flex;
+   }
+   
+   #d1,#d2,#d3,#d4,#d5{
+        width: 200px; /*largura*/
+        height: 200px; /*altura*/
+        background-color: #aaa;
+        border: 10px solid #000;
+        margin-right: 10px;
+    }
+
+    #d2{
+        border-style: dashed;
+        border-color: aqua;
+        background-color: rgba(226, 55, 55,0.75);
+        background-clip: padding-box;
+        border-radius: 10px 0px 40px 0px;
+                    /* esquerda-superior direita-superior direita-inferior esquerda-inferior*/
+        /*rgba permite opacidade de transparencia */
+        
+    }
+
+    #d3{
+
+        border-style: inset;
+        border-color: thistle;
+        border-radius: 10px
+    }
+
+    #d4{
+        background-color: wheat;
+        border-top: 5px solid salmon;
+        border-bottom: 5px groove turquoise;
+        border-left: 5px dotted violet;
+        border-right:5px inset yellow
+
+    }
+
+    #d5{
+
+        border-image: url(../Multimedia/11718.jpg) 30 30 round;
+    }
+
+
+    /* A sintaxe da propriedade 
+
+        border-image-source (en-US): none
+        border-image-slice: 100%
+        border-image-width (en-US): 1
+        border-image-outset: 0
+        border-image-repeat: stretch
+
+    */

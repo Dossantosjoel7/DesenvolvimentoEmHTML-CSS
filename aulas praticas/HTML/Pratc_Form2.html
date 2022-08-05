@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pratica Formulario 2</title>
+        <style>
+            .quebra{display: block;}
+            .espacoTop{margin-top: 15px;}
+            .espacoButton{margin-bottom: 15px;}
+            form{
+                border: 1px solid #000;
+                border-radius: 15px;
+                padding: 10px;
+                background-color: rgb(176, 199, 140);
+                margin-left: 200px;
+                margin-right: 200px;
+            }
+
+            body{
+                background: linear-gradient(100deg,rgb(241, 117, 117),rgb(62, 148, 228));
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Formulario do Password, Checkbox e radio</h1>
+        <!--
+            maxlength é o atributo que permite dizer os numeros de caracteres permitidos
+            size é atributo que  permite dizer o espaçamento da caixa
+            checked é o atributo que permite inserir de modo automatico um check
+        
+        -->
+        <form name="Form_1" action="#" method="get">
+            <label class="quebra espacoButton">Usuario:</label>
+                <input type="text" name="Usuario" placeholder="Insira o Nome" maxlength="60" size="25">
+            <label class="quebra espacoTop espacoButton" >Password:</label>
+                <input type="password" name="Password" pattern="[a-zA-z0-9]{8}" title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Insira o Password"  minlength="8" requered size="15" autocomplete="new-password">
+            <label class="quebra espacoTop">Lista que tu jogas:</label>
+                <input type="checkbox" name="F_JF">Futubol
+                <input type="checkbox" name="F_JB">BaskertBall
+                <input type="checkbox" name="F_JC">Ciclismo
+            <label class="quebra espacoTop">Gostas de Jogar:</label>
+                <input type="radio" name="F_J" value="Sim" checked>Sim
+                <input type="radio" name="F_J" value="nao">Não
+            <input class="quebra espacoTop" type="submit" value="Entrar">
+        </form>
+    </body>
+</html>

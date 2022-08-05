@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="cache-control" content="Public">
+    <meta http-equiv="content-language" content="pt-br,en-us">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"><!--ou atributo charset= UTF8--> 
+    <meta http-equiv="pragma" content="Public"> 
+    <meta http-equiv="refresh" content="60; url=https://translate.google.com/?source=osdd&sl=en&tl=pt&op=translate"> 
+   <!-- HTTp-equiv visa controlar as accoes do broswer 
+         Cache-Control visa controlar o Cache..7
+         Content-Language especifica o tipo de linguagem de texto da pagina
+         Content-Type especifica o tipo de conteudo
+         refresh visa atualizar pagina...
+    -->
+    <meta name="Copyright" content="@2022 Joel Luis dos Santos">
+    <meta name="description" content="Aula Basica">
+    <meta name="expires" content="sun 07 jul 2019 23:00 GMT">
+    <meta name="keywords" content="lilas, amiga">
+    <meta name="robot" content="index">
+    <meta name="Generator" content="VSCode">
+    <meta name="rating" content="general">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joel Santos">
+    <!-- name é equilavlente as acções que não corresponde a HTTp 
+        description visa descrever o documento
+        expires visa dizer quando vai expirar
+        keywords visa inserir palavras chaves de procura
+        robot visa aceitar robos de busca 
+        Generator diz o programa de criação 
+        viewport o tamanho inicial da nossa pagina
+
+            robots elemntos ->
+
+                all: não buscam 
+                index: podem incluir na busca 
+                follow: indexa e segue os links
+                NOfollow: indexa mas não segue os links
+                None:ignora totalmente sua pagina
+                NoArchive: pagina não é arquivada no motor de busca 
+
+
+    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <style>
+        nav{
+            background-color: brown;
+            padding: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 10px;
+        }
+        nav a{
+            text-decoration: none;
+            color: aquamarine;
+        }
+
+        section.A{
+            background-color: rgb(229, 243, 243);
+        }
+
+        section.C{
+            background-color: blue;
+        }
+
+        table,th,td{
+            border: 1px solid black;
+            background-color: white;
+        }
+        table{
+            border-collapse: collapse;
+        }
+
+    </style>
+    <script>alert("Eu te amo");</script>
+    <noscript> Ola Mundo </noscript>
+</head>
+<body>
+
+    <nav>
+        <a href="Pratc_2.html">|Primeira Pagina|</a>
+        <a href="Pratc_3.html">|Segunda Pagina|</a>
+        <a href="Pratc_Video.Html">|Video|</a>
+        <a href="Pratc_IMG.html">|Imagem|</a>
+    </nav>
+
+    <section class="A">
+            <p>Ola Mundo</p>
+        <meter id="Vl" value="" max="10" min="0" high="8" low="2" optimum="5"><script>
+            var n1 = document.getElementById("Vl").value="10";
+        </script></meter>
+
+        <object name="logo" width="" height="" data="../Multimedia/VID-20210525-WA0021.mp4"></object>
+        <object>
+            <param name="src" value="Pratc_2.html">
+        </object>
+    </section>
+      
+    <section class="B">
+        <select name="Classes">
+        <optgroup label="Ensino Primario">
+            <option value="1_class">1ª classe</option>
+            <option value="2_class">2ª classe</option>
+            <option value="3_class">3ª classe</option>
+            <option value="4_class">4ª classe</option>
+            <option value="5_class">5ª classe</option>
+            <option value="6_class">6ª classe</option>
+        </optgroup>
+        <optgroup label="Ensino Secudario">
+            <option value="7_class">7ª classe</option>
+            <option value="8_class">8ª classe</option>
+            <option value="9_class">9ª classe</option>
+        </optgroup>
+        <optgroup label="Ensino Medi0">
+            <option value="10_class">10ª classe</option>
+            <option value="11_class">11ª classe</option>
+            <option value="12_class">12ª classe</option>
+        </optgroup> 
+    </select>
+    
+    <section class="C">
+        <form action="#" method="post" oninput="res.value=parseInt(A.value)+parseInt(B.value)">
+        <input type="range" id="A" value="50"> 100 <p>+</p>
+        <input type="number" id="B" value="0"> <p>=</p>
+        <output name="res" for="A B"> </output>
+    </form>
+
+    <input type="range" min="0" max="100" value="0" onchange="v.value=this.value">
+    <progress id="v" value="0" max="100"></progress>
+
+    <q cite="Ronaldo dias">Alem do mar á esperaça</q>
+
+    <table>
+        <tfoot> 
+            <tr>
+            <th style="text-align:center ;" colspan="3"> Preços de Verculos</th>
+           <!-- <td>&nbsp;</td>  -->
+           <!-- O atributo colspan e o rowspan visam mesclar colunas e linhas 
+                especificadamente colspan é coluna e o  rowspan é a linha 
+            -->
+        </tr>
+    </tfoot>
+        <thead>
+            <tr>
+                <th>Fabricante</th>
+                <th>Modelo</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Toyota</td>
+                <td>Corolla</td>
+                <td>10.000.000,00 KZ</td>
+            </tr>
+        <tr>
+            <td>Hyundai</td>
+            <td>I10</td>
+            <td>1.200.000,00 KZ</td>
+        </tr>
+        <tr>
+            <td>Kia</td>
+            <td>Rio</td>
+            <td>9.000.000,00</td>
+        </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <p><time datetime="2001-11-15">15 de Novembro de 2001</time></p>
+    
+    
+    
+</body>
+</html>
+

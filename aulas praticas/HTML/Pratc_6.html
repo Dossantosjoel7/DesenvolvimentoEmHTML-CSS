@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trabalhado com Dialog</title>
+        <script>
+            function AbrirCaixa() {
+                document.getElementById("ON").setAttribute("open","");
+            }
+            function FeixaCaixa() {
+                document.getElementById("ON").removeAttribute("open");
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Caixa de Dialogo</h1>
+        <button onclick="AbrirCaixa()">abrir</button>
+        <button onclick="FeixaCaixa()">fechar</button>
+        <dialog id="ON">
+            <p><dfn title="Linguagem de marcação de Hyper Texto">HTML</dfn>
+                    Trata-se de uma Linguagem de marcação de Hyper texto.<br>
+                    Esta Linguagem indica basicamente onde colocar cada texto,
+                    imagem ou video e a forma que terao de ser colocada na pagina</p>
+        </dialog>
+    </body>
+</html>

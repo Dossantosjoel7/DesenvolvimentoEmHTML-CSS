@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercicio</title>
+        <style>
+            .quebra{display: block;}
+            .espacoTop{margin-top: 15px;}
+            .espacoButton{margin-bottom: 15px;}
+            form{
+                border: 1px solid #000;
+                border-radius: 15px;
+                padding: 10px;
+                background-color: rgb(176, 199, 140);
+                margin-left: 200px;
+                margin-right: 200px;
+            }
+
+            body{
+                background: linear-gradient(100deg,rgb(241, 117, 117),rgb(62, 148, 228));
+            }
+
+            h1{
+                text-align: center;
+                color:crimson;
+                font-size: 60px;
+                font-family: 'Times New Roman';
+            
+            }
+        </style>
+    </head>
+    <body>
+        <!--
+            multiple seleção de mais um elemento
+            size indica quantos elementos serão visiveis nesse grupo
+            input list representa caixa de listagem de elementos
+            datalist trabalha em conjunto do list
+            fieldset representa um conjunto de controles de formularios
+            textarea visa ensirir um bloco de comentario 
+        -->
+        <h1>Aprender melhor</h1>
+        <form name="Formulario" action="#" method="get">
+            <fieldset>
+                <legend>Seção B</legend>
+                <label for="F_nome">Nome</label>
+                    <input class="quebra" type="text" name="F_nome" placeholder="Ensira o seu Nome" maxlength="64">
+                <label for="F_Tel">Telemovel</label>
+                    <input class="quebra" type="tel" name="F_Tel" placeholder="Ensira seu Numero de Telemovel">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Seção A</legend>
+                <select class="quebra espacoButton espacoTop" name="F_SGen">
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                    <option value="B">Binario</option>
+                </select>
+    
+                <input class="quebra espacoTop" list="F_Listas_T" name="F_Cor">
+                    <datalist id="F_Listas_C">
+                        <option value="green">Verde</option>
+                        <option value="white">Branco</option>
+                        <option value="YELLOW">Amarelo</option>
+                        <option value="Red">Vermelho</option>
+                    </datalist> 
+                    <datalist id="F_Listas_T">
+                        <option value="01">Avião</option>
+                        <option value="02">Comboio</option>
+                        <option value="03">Carro</option>
+                    </datalist>
+
+                <textarea class="espacoTop"  name="F_Comentario" id="F_C" cols="50" rows="10">
+                    Cfb Cursos Joel sansa
+                </textarea>
+            </fieldset>
+            <input class="espacoTop" type="submit" value="Submeter">
+        </form>
+    </body>
+</html>

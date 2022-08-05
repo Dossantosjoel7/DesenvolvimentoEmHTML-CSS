@@ -1,0 +1,67 @@
+
+
+    body{
+        margin: 0px;
+
+       /* margin: 50px 200px 300px 50px ;
+
+        margin-top: 50;
+        margin-right: 200px;
+        margin-bottom: 300px;
+        margin-left: 50px;
+        
+
+        A propriedade margin(espaçamento) do CSS define a área de margem nos quatro lados do elemento.
+
+        */
+    }
+
+    p{
+        text-align: center;
+        margin: auto;
+        background: linear-gradient(#92d4479c,red,yellow);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: rgba(0,0,0,.2);
+        /*-webkit-text-fill-color: transparent;*/
+
+    }
+
+    div{
+        border: 1px solid #00f;
+        margin: auto; /*Quando queremos centralizar um elemento podemos utilizar margin auto*/
+        margin-bottom: 10px;
+    }
+
+    #div1{
+        margin-top: 30px;
+        width: 300px;
+        height:300px;
+        padding: 90px;
+        background: linear-gradient(32deg,black 2%,blue 24% ,red 24%);
+        /*background: linear-gradient(to right,black,blue,red);   to(para) uns dos lados*/
+    }
+
+    #div2{
+        width: 200px;
+        height:200px;
+        padding: 50px;
+        background: radial-gradient(circle, white,#92d4479c,#efff0d);
+        box-shadow: 10px 10px 5px #888;
+    }
+
+
+   /* A propriedade padding (espaçamento-interno) do CSS define a área de margem interna nos quatro lados do elemento.
+   
+
+        padding: 50px 200px 300px 50px ;
+
+        padding-top: 50;
+        padding-right: 200px;
+        padding-bottom: 300px;
+        padding-left: 50px;
+   
+
+        O Linear e radial visam adicionar Preenchimentos Gradientes
+   
+   */

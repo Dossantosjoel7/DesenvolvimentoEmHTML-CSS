@@ -1,0 +1,12 @@
+input{ 
+    height: 30px;
+    border-radius: 10px;
+}
+
+body{
+    background: linear-gradient(50deg, red ,darksalmon);
+}
+
+
+
+h1{text-align:center;}

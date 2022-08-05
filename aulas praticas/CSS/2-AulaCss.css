@@ -1,0 +1,41 @@
+    
+    
+    
+    #d1,#d2,#d3{
+        margin-bottom: 10px;
+        border: 8px dotted black;
+        padding: 15px;
+        /*        top right botton left*/
+        background-color: aquamarine;
+        /*  A borda visa definir uma linha em torno(caixa)  de elemento  -> espessura-tipo_de_linha-cor
+            border: [border-width || border-style || border-color | inherit]
+
+             O background-clip especifica se o fundo de um elemento,
+            seja cor ou imagem, se extende debaixo de sua área de borda,
+            preenchimento ou conteúdo.
+        
+        
+        */
+        
+    }
+
+    #p1{
+
+        background: url(../Multimedia/DT02.jpg) no-repeat left 0px / 200px 300px;
+        border: 1px solid;
+        padding: 100px;
+        margin-bottom: 10px;
+    }
+
+
+    #d1{
+        background-clip:border-box;
+    }
+
+    #d2{
+        background-clip:padding-box;
+    }
+
+    #d3{
+        background-clip:content-box;
+    }

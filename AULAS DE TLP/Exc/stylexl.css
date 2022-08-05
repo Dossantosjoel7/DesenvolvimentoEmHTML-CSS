@@ -1,0 +1,103 @@
+/*
+
+Pratica 
+
+
+*/
+
+
+
+/*linha 1*/
+.linha1{
+    width: 100%;
+    height: 450px;
+    background-color: darkmagenta;
+}
+
+.linha1-coluna1{
+    width: 50% ;
+    height: 500px;
+    background-color: crimson;
+    float: left;
+
+}
+
+.linha1-coluna2{
+    width: 50%;/*largura*/
+    height: 500px;/*Altura*/
+    background: rgb(240, 198, 12);
+    float: right;
+
+}
+
+/*LInha 2*/
+.linha2{
+width: 100%;
+height: 500px;
+background-color: snow;
+
+}
+
+.linha2-coluna1{
+    width: 45%;
+    height: 500px;
+    background-color: darkgrey;
+    float: right;
+    margin-top: 40px;
+}
+.linha2-coluna2{
+    width: 45%;
+    height: 500px;
+    background-color: darkgrey;
+    float: left;
+    margin-top: 40px;
+}
+
+
+/* Linha3*/
+.linha3{
+    width: 100%;
+    height: 100%;
+    background-color: snow;
+  
+
+}
+
+.linha3-coluna1{
+    width: 22%;
+    height: 500px;
+    background-color: rgb(53, 216, 3);
+    float: left;
+    margin-right: 4%;
+    margin-top: 40px;
+    
+}
+
+.linha3-coluna2{
+    width: 22%;
+    height: 500px;
+    background-color: rgb(255, 4, 4);
+    float: left;
+    margin-right: 4%;
+    margin-top: 40px;
+    
+}
+
+.linha3-coluna3{
+    width: 22%;
+    height: 500px;
+    background-color: rgb(255, 238, 0);
+    float: right;
+    margin-left: 4%;
+    margin-top: 40px;
+   
+}
+
+.linha3-coluna4{
+    width: 22%;
+    height: 500px;
+    background-color: darkgreen;
+    float: right;
+    margin-top: 40px;
+    
+}

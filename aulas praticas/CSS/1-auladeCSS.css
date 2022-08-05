@@ -1,0 +1,42 @@
+/* Exemplo de CSS usado forma externa*/
+
+/*p{ /*Para tag <p>
+    text-rendering: auto;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}*/
+
+
+/*A propriedade CSS background é um atalho para definir os valores de fundo individuais em um único lugar
+ na folha de estilo. */
+ 
+
+#x1{ /*Para id da tag <p>*/
+    color: darkolivegreen;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.Norma01{/*Criado uma classe*/
+    color: rgb(173, 64, 0);
+    font-size: 50px;
+    font-family: Helvetica;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.map{
+    background-color: #00ff;/*Adiciona uma cor de fundo */
+    background-image: url(DT02.jpg);/*Adiciona uma Imagem de fundo*/
+    background-size: 200px 100px;/*redimensiona a imagem inserida pelo backgroud*/
+    /*                 largura/altura                       */
+    background-position:right top;/*determina a posição de uma imagem*/
+    /*                  right botton */
+    background-repeat: no-repeat;/*Determina se a imagem vai ser repentida ou não*/
+    /* repeat-x -> horizontal e repeat-y -> vertical*/
+    background-attachment: fixed;/* Especifica se as imagens de fundo são fixas em relação à janela de visualização ('fixas')-fixed ou rolam junto com o elemento ('rolagem')-scroll ou seu conteúdo ('local').*/
+    
+}
+
+/*Viva 11 DE nOVEMBRO*/

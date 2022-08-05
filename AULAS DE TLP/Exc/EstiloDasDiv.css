@@ -1,0 +1,119 @@
+/*
+
+    Folha de Estilo Para o Documento HTML "Car"
+
+*/
+
+
+
+/*Inicio*/
+
+    .linha1{
+
+        width: 100%;
+        height: 400px;
+  
+        }
+
+    .linha1-coluna1{
+        width: 50% ;
+        height: 500px;
+        background-color: crimson;
+        float:left ;/*float especifica como a caixa vai ser  variada ou flutuada(posionada)*/
+
+        }
+
+    .linha1-coluna2{
+        width: 50%;/*largura*/
+        height: 500px;/*Altura*/
+        background-color: rgb(240, 198, 12);
+        float: left;
+
+}
+
+/* Fim da Linha 1 */
+
+
+/*Inicio da Linha 2*/
+
+    .linha2{
+
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .linha2-coluna1,.linha2-coluna2{ width:  45%; height: 400px;  margin-top: 40px;} /*Se chama multiplo seletor*/
+
+    .linha2-coluna1{
+
+        background-color: greenyellow;
+        float: right;
+  
+    }
+
+    .linha2-coluna2{
+
+        background-color: royalblue;
+        float: left;
+   
+        /*margin-top: 40px;/*elemento indica o espaço acima do elemento.*/
+    }
+
+/* FIM da Linha 2 */
+
+
+/*Inicio da Linha3 */
+
+    .linha3{
+
+        width: 100%;
+        height: 400px;
+
+    }
+
+    .linha3-coluna1,.linha3-coluna2,.linha3-coluna3,.linha3-coluna4{ width: 22%;  height: 400px; margin-top: 40px;}
+
+    .linha3-coluna1,.linha3-coluna2{float: left;}
+    .linha3-coluna3,.linha3-coluna4{float: right;}
+
+
+    .linha3-coluna1{
+
+        background-color: rgb(53, 216, 3);
+        margin-right: 4%;
+       /* 
+           A propriedade margin do CSS define a área de margem nos quatro lados do elemento. 
+            É uma abreviação que define todas as margens individuais de uma só vez:
+            margin-top(espaço em cima), margin-right (espaço em direita), margin-bottom(espaço inferior), e margin-left (espaço esquerda).
+       */
+    }
+
+    .linha3-coluna2{
+
+        background-color: rgb(255, 4, 4);
+        box-shadow: inset 2px 2px 2px silver;/*O box-shadow é uma propriedade do CSS, é utilizado para adicionar efeitos de sombra em volta de um elemento.*/
+    }
+
+    .linha3-coluna3{
+
+        background-color: rgb(255, 238, 0);
+        margin-left: 4%;
+   
+    }
+
+    .linha3-coluna4{
+
+        background-color: darkgreen;
+        
+        
+    }
+
+
+
+
+/*
+    
+   FIM DO DOCUMENTO DE ESTILO
+    
+*/

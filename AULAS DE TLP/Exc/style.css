@@ -1,0 +1,42 @@
+
+/*.Coluna1,.Coluna2{
+    text-align: center;
+}
+
+.Coluna1{
+    width: 50% ;
+    height: 500px;
+    background-color: crimson;
+    float: right;
+
+}
+
+.Coluna2{
+    width: 50%;/*largura*/
+  /*  height: 500px;/*Altura*/
+    /*background: rgb(240, 198, 12);
+    float: right;
+
+}
+
+.Coluna3{
+    width: 100%;
+    height: 100px;
+    background: rgb(39, 36, 23);
+    float: right;
+}
+
+.Linha{
+    width: 100%;
+    height: 450px;
+    float:left
+}
+
+strong{
+    font-weight: 100;
+}*/
+
+p{
+    text-align: center;
+    color: blue; 
+}

@@ -1,0 +1,42 @@
+/*
+	Name: Joel Santos
+	Copyright: 
+	Author: 
+	Date: 11/06/22
+	Description: *****
+
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.rodape_Final{
+    background-color: #2331ff;
+    color: rgb(255, 255, 255);
+    /*padding: 10px;*/
+    display: flex;
+    justify-content: space-around;
+    /*
+        A justify-content é a propriedade que alinha os itens do container flexível
+        quando os itens não utilizam todo o espaço disponível no eixo principal (horizontal).
+
+        space-around: Os itens terão espaço antes, entre e depois deles.
+    */
+}
+
+.art_roda{
+    border: 1px solid #2331ff;
+    width: 33.33%;
+    margin: 10px;
+
+}
+
+.img_Rod{
+    width: inherit;
+
+}

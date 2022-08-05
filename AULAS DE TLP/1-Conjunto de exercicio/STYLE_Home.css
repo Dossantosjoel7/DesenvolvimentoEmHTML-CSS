@@ -1,0 +1,70 @@
+/*
+     Parte de Estilo do Docmento
+     
+
+*/
+
+
+h1{
+    font-size: 20 px;
+    color: blue;
+    text-align: center;
+}
+
+p{
+    font-size: 14px;
+    color: black;
+    
+
+}
+
+/*A propriedade background-clip especifica a área do fundo, veja o código de exemplo*/
+
+
+#H1,#H2,#H3{
+    border: 10px dotted black;
+    padding: 35px;
+    background-color: cornflowerblue;
+}
+#H1{
+
+background-clip: border-box;/*Ele considera a parte da borda*/
+}
+
+
+#H2{
+
+    background-clip: padding-box;/*ele não considera a parte da borda*/
+
+}
+
+
+#H3{
+    
+
+    background-clip: content-box;/*Ele considera a parte do conteudo */
+}
+
+
+
+.button{
+    border-radius: 4px;
+}
+/*Quando queremos aplicar estilo em todo documento Html -> * 
+    
+*/
+
+/**{ 
+    background-color: slategray;
+}*/
+
+
+/**/
+
+summary::marker{color: blue;}
+details[open] summary::marker{color: black;}
+.sum{
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    padding: 15px;
+}

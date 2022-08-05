@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <title>Pratica para Formularios</title>
+        <style>
+            input{display: block;}
+
+            form{border: 1px solid cornflowerblue;
+                 width: 15%; ;
+                 height: 80px;
+                 padding: 10px;
+                 border-radius: 15px;
+                 background-color: grey;
+            }
+
+            #F_Cadastro{display: flex;
+                        margin-top: 5%;}
+                        
+        </style>
+    </head>
+    <body>
+        <!-- No metho-->
+        <Form name="Cadastro" action="#" method="post" autocomplete="off"  > <!-- Alguns Atributos da tag Form -->
+            <label for="User" >Nome</label> <!-- representa uma legenda ou um titulo para um item. Usamos para referenciar, ajudando o usuário na utilização e prenchimento do formulário -->
+            <input type="text" name="User" placeholder="Insira os dados"> <!-- É usado para6 criar controles interativos para formulários baseados na web para receber dados do usuário.-->
+            <div id="F_Cadastro">
+                <form action=""></form>
+                <input type="submit" name="Dados_enviar" value="Enviar">
+                <input type="reset" name="Dados_resetar" value="Apagar texto">
+                <input type="button" name="Nada" value="Void">
+            </div>
+            <form action=""> </form>
+        </Form>
+    </body>
+</html>

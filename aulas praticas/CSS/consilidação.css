@@ -1,0 +1,55 @@
+.Linha{
+    width: 100%; /*Largura*/
+    height: 300px;/*altura*/
+    background-color: #7d48ad;
+    display: flex;
+}
+
+.Coluna1{
+    width: 50%; /*Largura*/
+    height: 300px;
+    background-color: #0aeb2f;
+
+}
+
+.Coluna2{
+    width: 50%; /*Largura*/
+    height: 300px;
+    background-color: #babd01;
+
+}
+
+
+.Linha2{
+
+    width: 100%; /*Largura*/
+    height: 300px;
+    background-color: #ffffff;
+    display: flex;
+    
+}
+
+.linha-Coluna1{
+
+    width: 35%; /*Largura*/
+    height: 300px;
+    background-color: #eb3f0a;
+    margin-right: 10%;
+    
+}
+
+.linha-Coluna2{
+    width: 35%; /*Largura*/
+    height: 300px;
+    background-color: #eb0ac6;
+    margin-right: 10%;
+    
+}
+
+.linha-Coluna3{
+    width: 35%; /*Largura*/
+    height: 300px;
+    background-color: #ebc20a;
+}
+
+

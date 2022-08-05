@@ -1,0 +1,17 @@
+
+        input{display: block;}
+        h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: indigo;}
+        #Sex{display: flex;
+        }
+        .Formularios{
+            width: 450px;
+            height: 120%;
+            margin-top: 100px ;
+            margin-left: 550px;
+            background-color: cornflowerblue;
+            border-radius: 10px;
+        }
+        
+        input{ 
+            height: 30px;
+        }

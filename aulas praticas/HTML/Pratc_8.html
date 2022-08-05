@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Exercicio Sobre Header(Cabeçalho de seções)</title>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+        <style>
+            header{
+                background-color: #eee;
+                font-family:'Open Sans', sans-serif;
+                font-weight: bold; /* Peso da fonte ou seja o a importancia*/
+                text-decoration: underline;/* decoração de texto*/
+            }
+
+            iframe{
+                width: 1000px;
+                height: 500px;
+                border: none;
+            }
+
+            kbd {
+                background-color: #eee;
+                border-radius: 3px;
+                border: 1px solid #b4b4b4;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+                color: #333;
+                display: inline-block;
+                font-size: .85em;
+                font-weight: 700;
+                line-height: 1;
+                padding: 2px 4px;
+                white-space: nowrap;
+   }
+            #Banner{
+                width: auto;
+                height: auto;
+            }
+        </style>
+        <script>
+                function TrocaBanner() {
+                    var sorteio = Math.floor(Math.random()*3);
+                    var imag=['../Multimedia/VID-20210525-WA0021.mp4','../Multimedia/DT01.jpg','../Multimedia/DT02.jpg'];
+                    document.getElementById("Banner").src=imag[sorteio];
+                }
+                function Iniciar() {
+                    TrocaBanner();
+                }
+                window.addEventListener("load",Iniciar);
+        </script>
+    </head>
+    <body>
+        <article>
+            <header>
+                <h1>Minha primeira pagina</h1>
+                <p>E-mail: Joel.car@hotmail.com</p>
+            </header>
+            <section>
+                <header><p>Estão aqui as listas do Resultado</p></header>
+                <ol>
+                    <li>Maria 14 valores</li>
+                    <li>Larcio 15 Valores</li>
+                    <li>A processar...[Enseri <kbd>CTRL-L</kbd>]</li>
+                </ol>
+            </section>
+
+            <section>
+                <a href="Pratc_3.html" target="Iframe_Img">Aperta</a>
+                <iframe src="" name="Iframe_Img" frameborder="0"></iframe>
+                <iframe src="" name="Banner" id="Banner"></iframe>
+            </section>
+            <iframe src="Pratc_Form3.html" frameborder="0" sandbox=""><!--Sandbox permite inserir restrições-->
+            </iframe>
+        </article>
+    </body>
+</html>
