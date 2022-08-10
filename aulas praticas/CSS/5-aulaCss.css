@@ -22,11 +22,25 @@
         direction: ltr; /*indica a direção do texto*/
         word-spacing: 10px ;/*indica o espaço entre as palavras */
         text-align-last: center;
+        /**/
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;/*define nivel de italico*/
+        font-size: 10pt;/* define o nivel de escala de uma fonte*/
+        font-weight: lighter; /*define o o nivel de negrito*/
+        font-variant: small-caps; /* representa uma variação*/
 
 
 
     }
 
+    /*    @font-face {
+            font-family: ;
+            src: url();
+        }
+
+        Visa adicionar uma  fonte externa caso não há suporte 
+
+        */
     div{
         width: 500px;
         height: 300px;
