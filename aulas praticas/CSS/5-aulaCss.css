@@ -7,12 +7,64 @@
         text-shadow: 10px 10px 5px #888;
     }
 
+    h1{
+        display: block;
+    }
+
+    p{
+        color:#000;
+        text-align: justify;
+        text-decoration: none;
+        text-transform: capitalize;
+        text-indent: 100px;
+        letter-spacing: 2px; /*A propriedade define o comportamento do espaçamento horizontal entre os caracteres de texto*/
+        line-height: 2; /*A propriedade  define a altura de uma caixa de linha.*/
+        direction: ltr; /*indica a direção do texto*/
+        word-spacing: 10px ;/*indica o espaço entre as palavras */
+        text-align-last: center;
 
 
-    /*  Text-shadow visa adicionar sombra ao texto, enquanto o Box-shadow adiciona sombra ao redor da caixa
+
+    }
+
+    div{
+        width: 500px;
+        height: 300px;
+        border: 1px solid black;
+        white-space: normal; /* Define o espaço branco entre as palavras*/
+        overflow: auto; /* define o comportamento desejado para o estouro de um elemento */
+        word-break: break-all;/* define se as quebras de linha aparecem onde quer que o texto transborde sua caixa de conteúdo.*/
+        text-align-last: center;
+
+    }
+
+    .p1{
+        color: black;
+    }
+
+    .p2{
+        color: darkgoldenrod;
+    }
     
-        A sintaxe é quase a mesma ->
+    .p3{
+        color: yellow;
+    }
+
+    .p4{
+        color: tomato;
+    }
+
+    /*  
+    
+        Text-shadow visa adicionar sombra ao texto, enquanto o Box-shadow adiciona sombra ao redor da caixa
+    
+            A sintaxe é quase a mesma ->
 
             offset-x(distancia horizontal) | offset-y(distancia vertical) | blur-radius(embassamento) | color(cor)
 
+        A propriedade Text-decoration define a aparência das linhas decorativas no texto. 
+
+            text-decoration-line(tipo de decoração usado) | text-decoration-color(cor da decoração) | text-decoration-style(estilo da linha) | text-decoration-thickness(espessura da linha)
+
+      
     */
