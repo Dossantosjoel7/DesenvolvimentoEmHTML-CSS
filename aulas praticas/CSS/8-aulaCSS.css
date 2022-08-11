@@ -1,0 +1,43 @@
+
+    #div1{
+        width: 200px;
+        height: 200px;
+        border: 1px double #000;
+        /*transform: translate(200px,200px);
+        transform: rotate(45deg);
+        transform: skewX(45deg);
+        transform: skewY(24deg);
+        transform: skew(10deg,0deg);*/
+        /*transform:matrix(scaleX,skewY,skewX,scaleY,translateX,translateY);*/
+        /*transform:matrix(0.5,0,0,0.5,0);*/
+        transform-origin: bottom right 60px;
+       /* transform: rotate(0deg);*/
+    }
+
+    #div2{
+        width: 200px;
+        height: 200px;
+        border: 1px solid #881f1f;
+        /*transform: rotateY(45deg);*/
+        /*transform: rotateX();
+        transform: rotateZ();
+        transform: matrix3d();*/
+        transform: translate(200px ,200px);
+        backface-visibility: visible;/*indica se a parte de tras vai ser visivel ou naõ*/
+        transform-origin: 200px ,200px;
+    }
+
+    body{
+        perspective: 800px; /* visa dar noção de profundidade */
+    }
+
+
+    /*
+    
+
+        A propriedade transform permite girar(rotate), dimensionar(scale), inclinar(skew) ou traduzir(translate)
+        um elemento tanto em pespectiva em 3d ou 2d.
+     
+
+
+    */

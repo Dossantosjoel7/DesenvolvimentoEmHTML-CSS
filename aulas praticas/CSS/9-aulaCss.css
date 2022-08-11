@@ -1,0 +1,49 @@
+
+    ul,ol{
+        /*list-style-type: decimal-leading-zero;
+        list-style-position: inside;*/
+
+        list-style: georgian inside;
+        font-size: 25px;
+
+    }
+
+
+    li{
+        border: 1px solid #000;
+    }
+
+
+    /*  
+
+        O list-style visa modificar as listas 
+    
+    */
+
+    table, td,th{
+        border: 1px solid #000;
+        border-collapse: collapse;
+    }
+
+    table{
+        margin: auto;
+        width:500px;
+        table-layout: fixed;/*Visa ajustar as celulas umas das outras */
+        text-align: center;
+        /*empty-cells: hide; visa apresentar um estado quando a celula é vazia*/
+    }
+
+    td, th{
+        height: 40px;
+        vertical-align: top;
+    }
+
+    th{
+        background-color: tomato;
+        color: white;
+        font-size: 25px;
+    }
+
+    tr:nth-child(even){
+        background-color: #ddd;
+    }

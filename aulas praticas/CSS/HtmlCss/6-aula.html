@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='../8-aulaCSS.css'>
+    <script>
+        
+    var y,rotY_int;
+    var ny=0;
+
+        function rotateY_DIV() {
+            y=document.getElementById("div2");
+            clearInterval(rotY_int);
+            rotY_int = setInterval("startYRotate()",5);
+        }
+
+        function startYRotate() {
+            ny=ny+1;
+            y.style.transform="rotateY("+ny+"deg)  translate(200px,200px)";
+                if(ny==180 || ny>=360){
+                    clearInterval(rotY_int);
+                    if(ny>=360) (ny=0)
+                }
+        }
+
+    </script>
+</head>
+<body>
+    <div id="div2" onclick="rotateY_DIV()">Joel Luis dos Santos</div>
+</body>
+</html>
