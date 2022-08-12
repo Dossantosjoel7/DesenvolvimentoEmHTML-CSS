@@ -1,0 +1,136 @@
+    
+    
+    /*body{
+        padding: 30px;
+        margin: 0px;
+    }*/
+
+    #div_Outline{
+        display: none;
+        float: left;
+        width: 200px;
+        height: 200px;
+        background-color: #ddd;
+        outline: 10px solid tomato;
+        outline-offset: 20px;
+
+    }
+
+    /*
+    
+        O outline(contorno) é uma linha fora da borda do elemento .
+        Ela é uma Metapropriedade contendo outline-color(cor) outline-style(tipo de linha) outline-width(largura ou espessura )
+
+        outline-offset define a quantidade de espaço entre um contorno e a borda ou borda de um elemento.
+
+
+    */
+
+    div,span{
+        background-color: #ddd;
+        border: 1px solid #000;
+        margin: 10px;
+        width: 100px;
+        height: 200px;
+    }
+
+    #div1{
+        display: inline-block;
+    }
+
+    #span1{
+        display: inline-block;
+    }
+
+    #div2{
+        display: inline-block;
+    }
+
+    #span2{
+        display: inline-block;
+    }
+
+
+
+    /*
+    
+        O Display(exibição) define como vai ser exibido o elemento ou bloco embutido.
+
+
+        Varios valores ->
+
+        none: o elemento é ocultado ou seja é dispensado 
+        
+        Block: É o elemento que gera uma caixa de elemento de bloco,
+        gerando quebras de linha antes e depois do elemento quando no fluxo normal.
+
+        
+        O inline: é o elemento que  gera uma ou mais caixas de elementos embutidos que
+            não geram quebras de linha antes ou depois de si mesmas.
+
+        inline-block: funcina como block, mas respeitando o tamanho indicado k
+
+        
+        obs: As Div têm como padrão exibição block enquanto as span têm a exibição inline 
+    
+    
+    */
+
+    #div_list{
+        background-color: tomato;
+        text-align: center;
+        /*line-height: 200px;  -> uma alternativa para vertical-align*/
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
+    ol,ul,li{
+        border: 1px solid #000;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    ol{
+        display: table;
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    ul{
+        display: table-row;
+    }
+
+    li{
+        display: table-cell;
+        text-align: center;
+    }
+
+    #Titulo{
+        background-color: turquoise;
+        font-variant: small-caps;
+        font-weight: bold;
+    }
+
+
+
+    section{
+        border: 2px double thistle;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #Div-flex{
+        flex: 1;
+        width: 100px;
+    }
+
+
+    /*
+    
+        Flex define como um elemento flexível aumentará ou diminuirá para caber no espaço disponível em seu contêiner flexível.
+
+        sintaxe: <'flex-grow(crescimento)'> <'flex-shrink(redução)'>? || <'flex-basis(tamanho principal )'> 
+    
+    
+    */
