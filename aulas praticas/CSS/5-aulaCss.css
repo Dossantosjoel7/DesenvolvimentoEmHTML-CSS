@@ -46,7 +46,8 @@
         height: 300px;
         border: 1px solid black;
         white-space: normal; /* Define o espaço branco entre as palavras*/
-        overflow: auto; /* define o comportamento desejado para o estouro de um elemento */
+        overflow: auto; /* define o comportamento desejado para o estouro de um elemento ou seja para controlar o comportamento do conteúdo que excede seu container.
+        */
         word-break: break-all;/* define se as quebras de linha aparecem onde quer que o texto transborde sua caixa de conteúdo.*/
         text-align-last: center;
 

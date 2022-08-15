@@ -1,0 +1,34 @@
+
+    img{
+        width: 200px;
+        height: 150px;
+        border: 1px solid #ddd;
+    }
+
+    #img1{
+        float: left;
+    }
+
+    #img2{
+        float: right;
+    }
+
+    .fixed{
+        clear: both;
+    }
+
+
+    /*
+    
+    O float  coloca um elemento no lado esquerdo ou direito de seu contêiner,
+            permitindo que o texto e os elementos embutidos o envolvam.
+
+    Clear
+        A propriedade CSS define se um elemento deve ser movido abaixo (limpo) dos elementos flutuantes que o precedem. 
+    
+    
+    
+
+
+
+    */

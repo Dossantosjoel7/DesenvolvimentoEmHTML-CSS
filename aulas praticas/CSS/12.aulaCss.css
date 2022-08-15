@@ -1,0 +1,65 @@
+
+    body{
+        padding: 0px;
+        margin:  0px;
+    }
+
+    div{
+        border: 1px solid #000;
+        background: #ddd;
+    }
+
+    #d0{
+        width: 700px;
+        height: 500px;
+        background-color: #eef;
+        position: absolute;
+        top:150px;
+        left: 300px;
+    }
+
+    #d1{
+        position: absolute;
+        top:50px;
+        left: 50px;
+        z-index: 1;
+    }
+
+    #d2{
+        position: absolute;
+        left: 70px;
+        top: 70px;
+        z-index: 2;
+        
+    }
+
+    #d1,#d2{
+        width: 300px;
+        height: 150px;
+    }
+
+
+    /*
+
+            O position define como um elemento é posicionado em um documento. 
+            e determinam a localização final dos elementos posicionados atraves das propriedades left top bottom right.
+
+
+            static: o elemento é posicionado de acordo com o fluxo normal do documento.
+                      As propriedades top, right, bottom, lefte não z-index têm efeito .   
+
+            relative: O elemento é posicionado de acordo com o fluxo normal do documento e, em seguida,
+                      deslocado em relação a si mesmo com base nos valores de top, right, bottome left.
+
+            absolute: O elemento é removido do fluxo normal de documentos e nenhum espaço é criado para o elemento no layout da página.
+                    é posicionado em relação ao conteiner Pai.
+            
+            fixed: O elemento é removido do fluxo normal de documentos e nenhum espaço é criado para o elemento no layout da página.
+
+            sticky: O elemento é posicionado de acordo com o fluxo normal do documento e, em seguida,
+             deslocado em relação ao seu ancestral de rolagem mais próximo e ao bloco que contém (ancestral de nível de bloco mais próximo),
+             incluindo elementos relacionados à tabela, com base nos valores de top, right, bottome left. 
+
+
+             A z-index define a ordem z de um elemento posicionado e seus descendentes ou itens flex.
+    */

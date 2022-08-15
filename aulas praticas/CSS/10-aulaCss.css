@@ -29,8 +29,8 @@
     div,span{
         background-color: #ddd;
         border: 1px solid #000;
-        margin: 10px;
-        width: 100px;
+        /*margin: 10px;
+        width: 100px;*/
         height: 200px;
     }
 
@@ -116,8 +116,13 @@
 
     section{
         border: 2px double thistle;
+        height: 500px;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;/* quebra de linha dos elementos flexiveis {nowap -> não faz quebra de linha } */
+        justify-content: flex-start;  /*Alinhamento Horizontal*/
+        align-items: center;    /*Alinhamento Vertical*/
+        flex-direction: row;    /*Direção dos elementos */
+        /*min-width: ; -> visa ajustar a altura minima dos elementos*/
     }
 
     #Div-flex{
@@ -131,6 +136,9 @@
         Flex define como um elemento flexível aumentará ou diminuirá para caber no espaço disponível em seu contêiner flexível.
 
         sintaxe: <'flex-grow(crescimento)'> <'flex-shrink(redução)'>? || <'flex-basis(tamanho principal )'> 
+
+
+        order: permite alterar a ordem dos elementos flexiveis contidos num conteiner
     
     
     */
