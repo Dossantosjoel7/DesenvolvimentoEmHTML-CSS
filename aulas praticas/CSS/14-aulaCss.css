@@ -1,0 +1,33 @@
+
+    /*
+
+        Os pseudo-Elementos before(antes) e after(depois)
+    
+    
+    
+    */
+
+    p.JLDS::before{
+        content: "JLDS -";
+        color: brown;
+    }
+
+    p.JLDS::after{
+        color: tomato;
+        font-weight: bolder;
+        font-style: italic;
+        content: " - I love you JLDS";
+    }
+
+    p.p1::first-letter{
+        color: red;
+    }
+
+    p.p1::first-line{
+        background: #ff1;
+    }
+
+    p.p1::selection{
+        background-color: wheat;
+        color:gold;
+    }

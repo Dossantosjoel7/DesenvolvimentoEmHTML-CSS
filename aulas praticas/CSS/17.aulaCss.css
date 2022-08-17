@@ -1,0 +1,109 @@
+#p1{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    position: relative;
+    left: 0px;
+    top:0px;
+
+
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+
+    column-gap: 50px;/*Define o intervalo entre as colunas. */
+    -webkit-column-gap: 50px;
+    -moz-column-gap: 50px;
+
+    column-rule: 10px groove firebrick;/* define a largura, o estilo e a cor da linha desenhada entre as colunas em um layout de várias colunas.*/
+
+}
+
+
+/*
+
+  columns: define o número de colunas a serem usadas ao desenhar o conteúdo de um elemento
+
+  Esta propriedade é um atalho para as seguintes propriedades CSS:
+    
+    column-count: É o numero de vezes que a coluna vai ser desenhada.
+    column-width: define a largura ideal da coluna em um layout de varias colunas.
+
+*/
+
+#div1{
+    width: 300px;
+    height: 200px;
+    min-width: 300px;
+    min-height: 200px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    resize: both;
+    overflow: auto;
+    float: left;
+}
+
+
+#div2{
+    width: 300px;
+    height: 50px;
+    min-width: 300px;
+    min-height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    resize: both;
+    overflow: hidden;
+    clear: both;
+}
+
+#div2 img{
+    height: 100%;
+    width: 100%;
+}
+
+#div2:hover{
+    border: 0.5px solid #000;
+}
+
+
+
+
+
+/*
+
+ resize: define se um elemento é redimensionável e, em caso afirmativo, em quais direções.
+
+*/
+
+#div3{
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+    border: 2px solid tomato;
+    box-sizing: border-box;
+}
+
+.div4{
+    background-color: royalblue;
+    width: 300px;
+    height: 200px;
+    border: 0px;
+    padding: 0px;
+}
+
+
+
+/*
+
+  box-sizing:  define como a largura e a altura totais de um elemento são calculadas.
+
+  A box-sizing propriedade pode ser usada para ajustar esse comportamento:
+
+    content-box: fornece o comportamento de dimensionamento de caixa CSS padrão.
+    border-boxinforma ao navegador para considerar qualquer borda e preenchimento nos valores especificados para a largura e a altura de um elemento.
+
+*/

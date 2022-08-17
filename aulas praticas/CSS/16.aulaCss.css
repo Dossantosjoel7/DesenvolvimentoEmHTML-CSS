@@ -1,0 +1,98 @@
+/*@keyframes anime1 {
+    from{
+        left: 500px;top:500px;
+    }
+    to{
+        left: 0px;top: 0px;
+    }
+}
+
+@keyframes anime2{
+    from{
+        background-color: white;left: 500px;top: 500px;
+    }
+   to{
+        background-color: lightcoral;left: 0px;top: 0px;
+   }
+}
+
+@keyframes anime3 {
+    from{
+        left: 0px;top:0px;
+    }
+    to{
+        left: 500px;top: 500px;
+    }
+}*/
+
+
+@keyframes Anime_Div {
+    0%{
+        left: 0px;top: 0px;
+    }
+    25%{
+        left: 500px;top: 0px;
+    }
+    50%{ 
+        left: 500px;top: 500px;
+    }
+    75%{
+        left: 0px; top: 500px;
+    }
+    100%{
+        left: 0px;top: 0px;
+    }
+    /* Devemos dividir por 100 apartir da 1 periodo */
+}
+
+
+
+
+
+#div1{
+    background-color: lightcoral;
+    width: 260px;
+    height: 260px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    position:relative;
+    left: 0px;
+    top:0px;
+    animation: Anime_Div;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;/* representa interação*/
+    animation-direction: alternate-reverse;/* representa a direction*/
+    animation-play-state: running;/* representa apresentação do estado*/
+
+
+
+}
+
+
+/*
+
+    Um quadro-chave na animação e na produção cinematográfica é um desenho que define os pontos de início e fim
+    de qualquer transição suave entre imagens.
+
+    @keyframes: controla as etapas intermediárias em uma sequência de animação CSS definindo estilos para quadros-chave (ou waypoints)
+    ao longo da sequência de animação.
+
+    <custom-ident>
+        Um nome que identifica a lista de quadros-chave. Isso deve corresponder à produção do identificador na sintaxe CSS.
+
+    from(apartir)
+        Um deslocamento inicial de 0%.
+
+    to(para)
+        Um deslocamento final de 100%.
+
+    <percentage>
+        Uma porcentagem do tempo na sequência de animação em que o quadro-chave especificado deve ocorrer.  
+
+
+
+*/

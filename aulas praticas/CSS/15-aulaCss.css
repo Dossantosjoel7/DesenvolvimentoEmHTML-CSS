@@ -1,0 +1,42 @@
+p{
+    width: 300px;
+    height: 250px;
+    border:1px solid rgb(36, 15, 15);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+    transition: /*width 2s,height 2s, */ background-color 1s, color 1s, transform 2s;
+    transition-timing-function:cubic-bezier(0, 0., 5.1, 0.5) ;
+    transition-delay: 0s;
+}
+
+p:hover{
+    width: 500px;
+    height: 120px;
+    background-color: #f00;
+    color: #000;
+    transform: rotate(360deg);
+}
+
+
+/*
+
+
+     As transições permitem definir a transição entre dois estados de um elemento.
+     Diferentes estados podem ser definidos usando pseudo-classes como :hover ou :active
+     ou definidos dinamicamente usando JavaScript.
+
+
+     Esta propriedade é um atalho para as seguintes propriedades CSS:
+
+     transition-property: define as propriedades CSS às quais um efeito de transição deve ser aplicado.
+     transition-duration: define o tempo que uma animação de transição deve levar para ser concluída.
+     transition-delay: especifica a duração de espera antes de iniciar o efeito de transição de uma propriedade quando seu valor muda.
+     transition-timing-function: define como os valores intermediários são calculados para propriedades CSS afetadas por um efeito de transição .
+
+
+
+
+
+
+*/
