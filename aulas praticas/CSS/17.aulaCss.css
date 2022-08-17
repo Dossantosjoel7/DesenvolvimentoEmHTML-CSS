@@ -53,11 +53,10 @@
     height: 50px;
     min-width: 300px;
     min-height: 50px;
-    border-radius: 10px;
-    padding: 10px;
     resize: both;
     overflow: hidden;
     clear: both;
+
 }
 
 #div2 img{
