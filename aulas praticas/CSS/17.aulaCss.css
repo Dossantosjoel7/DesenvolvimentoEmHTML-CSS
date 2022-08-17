@@ -104,6 +104,6 @@
   A box-sizing propriedade pode ser usada para ajustar esse comportamento:
 
     content-box: fornece o comportamento de dimensionamento de caixa CSS padrão.
-    border-boxinforma ao navegador para considerar qualquer borda e preenchimento nos valores especificados para a largura e a altura de um elemento.
+    border-box: informa ao navegador para considerar qualquer borda e preenchimento nos valores especificados para a largura e a altura de um elemento.
 
 */
