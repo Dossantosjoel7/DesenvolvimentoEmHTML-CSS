@@ -1,0 +1,56 @@
+
+
+
+
+    img{
+        width:500px;
+    }
+
+    body{
+        background:#ff0;
+    }
+
+    @media screen  and (max-width:800px) and (orientation: portrait){
+        body{
+            background: blue;
+        }
+        
+    }
+
+    
+    @media screen  and (max-width:900px) and (orientation: landscape){
+        body{
+            background: red;
+        };
+        
+    }
+
+
+
+    /*
+    
+        A regra @media é usada em consultas de mídia para aplicar estilos diferentes para diferentes tipos/dispositivos de mídia.
+
+        As consultas de mídia podem ser usadas para verificar muitas coisas, como:
+
+            largura e altura da janela de visualização
+            largura e altura do dispositivo
+            orientação (o tablet/telefone está no modo paisagem(landscape) ou retrato(portrait)?)
+            resolução
+
+        Você também pode usar consultas de mídia para especificar que determinados estilos
+        são apenas para documentos impressos ou para leitores de tela (tipo de mídia: impressão(print), tela(screen) ou fala(speech)).
+
+        Sua sintanxe->
+
+            @media not|only mediatype and (mediafeature and|or|not mediafeature) {
+            CSS-Code;
+            }
+
+        Você também pode ter diferentes folhas de estilo para diferentes mídias, como esta:
+
+                <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+                <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+      
+    
+    */

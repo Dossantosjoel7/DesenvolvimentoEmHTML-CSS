@@ -1,0 +1,37 @@
+img{
+    /*filter: blur(100px);*/
+    /*filter:brightness(2);*/
+    /*filter:grayscale(100%);*/
+    /*filter: contrast(2%);*/
+    /*filter: drop-shadow(10px 10px 15px #0004ff);*/
+    /*filter: hue-rotate(50deg);*/
+    /*filter: invert(100%);*/
+    /*filter: opacity(10%);
+    filter:saturate(100%k)*/
+    /*filter: sepia(100%);*/
+    filter: grayscale(15%) drop-shadow(10px 10px 15px #0004ff) sepia(20px);
+}
+
+
+/*
+
+
+   O filter: aplica efeitos gráficos como desfoque ou mudança de cor a um elemento.
+   Os filtros são comumente usados ​​para ajustar a renderização de imagens, planos de fundo e bordas.
+   
+   Os seus valores->
+
+    blur(): aplica um desfoque gaussiano à imagem de entrada.
+    A brightness() aplica um multiplicador linear à imagem de entrada, fazendo com que pareça mais ou menos brilhante.
+    grayscale(): função converte a imagem de entrada em escala de cinza.
+    contrast(): função ajusta o contraste da imagem de entrada.
+    drop-shadow(): define projeção de sombra [sua sintaxe(disX,disY,tam,cor)].
+    hue-rotate():aplica uma rotação de matiz na imagem de entrada.
+    invert(): inverte as amostras na imagem de entrada. 
+    opacity():  aplica transparência às amostras na imagem de entrada 
+    saturate(): aplica saturação
+    sepia(): define efeito de evelhecimento 
+}
+
+
+*/

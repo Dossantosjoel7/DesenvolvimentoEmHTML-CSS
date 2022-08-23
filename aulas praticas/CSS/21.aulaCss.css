@@ -1,0 +1,55 @@
+
+   /* html{
+        font-size: 20px;
+    }
+
+    div{
+        border: 1px solid black;
+        display: inline-block;
+        width: 300px;
+    }
+
+    #div1{
+        height: 1rem; /*Tamanho da fonte do elemento em relação ao elemento Raiz
+        border-color: red;
+    }
+
+    #div2{
+        height: 80px;
+    }
+
+
+    p{
+        font-size: 2em; /* Tamanho da fonte do elemento pai X 2
+    }
+
+    #p3{
+        color:thistle;
+        font-size: 20px;
+    }
+*/
+
+    /*
+    
+        %: dimensão  flexivel em relação ao elemento pai 
+        ex: dimensão em relação ao elemento da letra minuscula
+        vw: dimensão 1/100 da largura da janela
+        wh: dimensão 1/100 da altura da janela 
+        pt(pontos): dimensão  1.3333px
+        1pc(paicas): dimensão 16px
+        1in: dimensão 96px
+        1cm = 37.7952px
+        1mm: 3.7795px
+    
+    */
+
+
+    /*
+    
+        Inherit: valor em relação ao elemento pai ou seja herda o valor do elemento pai/parente
+        Initial: palavra-chave é usada para definir uma propriedade CSS para seu valor padrão.
+
+    */
+
+
+

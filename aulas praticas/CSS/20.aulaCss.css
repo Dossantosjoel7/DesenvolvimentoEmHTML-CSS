@@ -1,0 +1,54 @@
+
+
+    nav{
+        width:190px;
+        float: left;
+    }
+
+    article{
+        margin-left: 200px;
+    }
+
+    nav ul{
+        padding:0px;
+        margin: 0px;
+    }
+
+    nav li{
+        border: 1px solid #ddd;
+        background-color: blue;
+        color: #fff;
+        margin: 4px;
+        padding: 2px;
+        border-radius: 4px;
+        list-style-type: none;
+
+    }
+
+    @media screen  and (min-width: 0px) and (max-width: 500px){
+        nav{
+            width:100%
+        }
+
+        article{
+            margin-left: 4px;
+        }
+
+        article p{
+            text-align: justify;
+        }
+
+        nav li {
+            font-size: 25px;
+        }
+    }
+
+    @media screen  and (min-width: 501px) and (max-width: 800px){
+        nav li {
+            font-size: 24px;
+        }
+
+        article #div1 {
+            float: left;
+        }
+    }
