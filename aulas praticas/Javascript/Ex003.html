@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu primeiro programa</title>
+        <style>
+            body{
+                background-color: coral;
+                font-weight: 100;
+            }
+
+            h1{font-style: italic;color: beige;}
+        </style>
+    </head>
+    <body>
+        <script>
+            var nome = window.prompt("Declare seu nome: ");
+            document.write(`<h1> Boa Noite. Sr/a ${nome} </h1>`);            
+            document.write(`<p> Seu nome tem ${nome.length} letras...</p>`);
+            document.write(`<p> E seu nome em maiuculas é ${nome.toUpperCase()}</p>`);
+            // toFixed() permite ordenar os numeros de casas decimais
+            // toLocaleString('pt-br',{style:'currency',currency: 'EUR'}) permite definir padroes locais de string
+            // replace() permite trocar um determinado caracter de uma string
+        </script>
+    </body>
+</html>

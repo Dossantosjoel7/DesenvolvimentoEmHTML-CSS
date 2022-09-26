@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu primeiro programa</title>
+        <style>
+            body{
+                background-color: coral;
+                font-weight: 100;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            h1{
+                font-style: italic;
+                color: beige;
+                text-align: center;
+                
+            }
+
+            .Caixa_Informação{
+                background: yellowgreen;
+                height: 500px;
+                width: 800px;
+                border: 1px solid #000;
+                border-radius: 10px;
+                margin-top: 100px;
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Caixa_Informação">
+            <script>
+                var n1 = Number(window.prompt(`Declare à Nota do Primeiro Aluno ->`));
+                var n2 = parseInt(window.prompt(`Declare à Nota do Segundo Aluno ->`));
+
+                var Media =(n1+n2)/2;
+                window.alert("Já foi Calculado à Media");
+                document.writeln(`<h1> A media do Aluno é igual ${Media}</h1>`);
+                document.writeln(`<h1> O Aluno em questão esta em estado de ${Media>=7?"Aprovação":"Reprovação"}</h1>`);
+           </script>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu primeiro programa</title>
+        <style>
+            body{
+                background-color: coral;
+                font-weight: 100;
+            }
+
+            h1{font-style: italic;color: beige;}
+        </style>
+    </head>
+    <body>
+        <h1>Boa Noite JLDS</h1>
+        <p>Meu Primeiro Programa em Javascript </p>
+        <script>
+            var n1 = parseInt(window.prompt("Declare seu Numero -> "));
+            var n2 = Number(window.prompt("Declare seu 2ª Numero -> "));
+            var soma = n1+n2;
+            window.alert(`A soma de ${n1} + ${n2} = ${String(soma)}`); // Templete string feito a base do crase ou aspas invertidas  // ou soma.toString()
+        </script>
+    </body>
+</html>
