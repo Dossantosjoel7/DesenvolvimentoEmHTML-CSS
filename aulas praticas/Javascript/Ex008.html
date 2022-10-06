@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0px;
+            background: linear-gradient(to right,#C04848,#480048);
+            color: white;
+            
+        }
+
+        div{
+            font: normal 20pt 'Times New Roman';
+            width: 900px;
+            margin: auto;
+            margin-top: 150px;
+        
+        }
+
+        fieldset{
+            margin: auto;
+            border-radius: 10px;
+            border-color: white;
+            border-width: 3px;
+        }
+
+        input,button {
+            width: 200px;
+            height: 50px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id ="Info">
+        <fieldset>
+            <legend><h1>Calculadora de Soma</h1></legend>
+            <form name="calc" method="post">
+                <input type="number" name="Number1" id="Number1"> + <input type="number" name="Number2" id="Number2">
+                <input type="button" value="Somar" onclick="Somar()">
+            </form>
+            <p id="res">#Resultado</p>
+            <p>Obs:só aceita dois números</p>
+        </fieldset>
+    </div>
+
+    <script>
+        function Somar(){
+            var number1 = window.document.getElementById("Number1");
+            var number2 = window.document.getElementById("Number2");
+            var res = window.document.getElementById("res");
+            var soma = Number(number1.value) + Number(number2.value);
+            res.innerHTML = number1.value +((Number(number2.value)<=-1)?"":"+")+ number2.value +" = "+`<strong>${soma}</strong>`;
+        }
+         
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos sobre o Dom</title>
+    <style>
+        body{
+            background-color: rgba(68, 125, 199, 1);
+            color:white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando em Dom</h1>
+    <p>Aqui vai o Resultado</p>
+    <p>Exemplos de <strong>DOM</strong> em enfase:</p>
+    <div id="n1">Clique em mim</div>
+    <script>
+        /*
+        
+            O DOM(Document Object Model) Modelo de Documento por Objetos é uma interface de programação que nos permite manipular
+            objetos ou seja elementos HTML ou XML atráves de uma Linguagem de programação, geralmente Javascript.
+        
+        */
+        var base = document.body;
+        var r = window.document.getElementsByTagName('p')[1]; // Seleção por Marca
+        document.write(r.innerHTML); // innerText
+        r.style.color = "blue";
+        // var sp = document.getElementById("n1"); // seleção por ID
+        var sp = window.document.querySelector("div#n1");
+        sp.style.backgroundColor= "blue";
+        
+    </script>
+</body>
+</html>

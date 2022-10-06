@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verificador de Nacionalidade</title>
+    </head>
+     <body>
+        <div id="Main">
+            <h1>Verificador de Nacionalidade Angolana</h1>
+            <form name="Form" method="get">
+                Declare seu País:<input type="text" id="InText"> 
+                <input type="button" value="Verificar" onclick="Verificar()">
+            </form>
+            <p id="Res"></p>
+        </div>
+        <script>
+            function Verificar(){
+               var Pais = window.document.querySelector("input#InText"); 
+               var res = document.getElementById("Res");
+               if( Pais.value != 'Angola')
+                    res.innerHTML = `O seu País é <strong>${Pais.value}</strong>,e eres um Estrangeiro`;
+               else
+                    res.innerHTML = `O seu País é <strong>${Pais.value}</strong>,e eres um Angolano`;
+            }
+            
+            
+        </script>
+     </body>
+</html>
