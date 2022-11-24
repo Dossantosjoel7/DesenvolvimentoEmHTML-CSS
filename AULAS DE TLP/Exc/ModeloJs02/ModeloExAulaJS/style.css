@@ -1,0 +1,37 @@
+    
+    body {
+        background: #1588f3;
+        font: normal 15pt Arial;
+    }
+
+    header {
+        color: white;
+        text-align: center;
+    }
+
+    section {
+        background: white;
+        border-radius: 10px;
+        padding: 15px;
+        width: 500px;
+        margin: auto;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336);
+    }
+
+    footer {
+        color: white;
+        text-align: center;
+        font-style: italic;
+    }
+
+    #foto{
+        border-radius: 100%;
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    /**/
+    .quebra{display: block;}
+    .espacoTop{margin-top: 15px;}
+    .espacoButton{margin-bottom: 15px;}

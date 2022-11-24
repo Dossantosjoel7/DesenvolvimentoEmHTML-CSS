@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+    <head>
+        <title>Modelo</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
+        <section>
+            <div id="Div1">
+                <form name="Verificador_Idade" method="get">
+                    <label class="quebra espacoButton">Declare o ano de Nascimento:
+                        <input type="number" name="Age_Born" id="Age_Born">
+                    </label>
+                    <label>Sexo:
+                        <input type="radio" name="Sex_Cheked" id="Sex_M" checked>
+                        <label for="Sex_M">Masculino</label>
+                        <input type="radio" name="Sex_Cheked" id="Sex_F">
+                        <label for="Sex_F">Feminino</label>
+                    </label>
+                    <input class="quebra espacoButton espacoTop" type="button" value="Verificar" onclick="Verificar()">
+                </form>
+            </div>
+            <div id="Res">
+                Preencha os dados acima para ver os resultados
+            </div>
+        </section>
+        <footer>
+            <p>&copy; JDLS</p>
+        </footer>
+    </body>
+</html>
